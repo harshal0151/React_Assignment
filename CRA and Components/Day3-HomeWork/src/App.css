@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.nav-header{
+  float: left;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.nav-header h1{
+   color: rgb(169, 58, 72);
+   margin-bottom: 1rem;
+}
+.nav-header p{
+  color: gray;
+}
+.navbar-1{
+  background: rgb(161, 161, 161);
+  height: 60px;
+
+}
+.navbar-1 ul {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.navbar ul li {
+  height: 100%;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+.navbar ul li a {
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-weight: 600;
+  height: 100%;
+  line-height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 100%;
+}
+.navbar ul li a:hover{
+  cursor: pointer;
+  transition: .6s ease;
+ background-color: rgb(169, 58, 72);
+}
+
+.heroContainer{
+  padding: 2rem;
+
+}
+.hero-image{
+ background-color:  rgb(237, 237, 237);
+  width: 100%;
+  text-align: center;
+
+}
+.hero-image img{
+  padding: 2rem;
+  width: 90%;
+}
+.hero-details{
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(169, 58, 72);
+  height: 300px;
+}
+.hero-details h1, .hero-btn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.hero-details p{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+ margin-left: auto;
+ margin-right: auto;
+  width: 60%;
+  font-size: 16px;
+}
+.hero-btn a{
+  font-weight: 600;
+  color:  #fff;
+  margin: 10px;
+  border: 1.5px solid #fff;
+  padding: 1rem;
+}
+.hero-btn a:hover{
+  transition: .3s ease;
+  background-color: #fff;
+  color:  rgb(169, 58, 72);
+  border: 1.5px solid rgb(169, 58, 72);;
+}
+.hero-discription{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.hero-discription p{
+ margin-top: 1rem;
+ margin-bottom: 2rem;
+}
+.first-para{
+  font-weight: 600;
+  color:rgb(169, 58, 72); 
+}
+footer{
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+footer h1{
+  margin-bottom: 1rem;
+  color:rgb(169, 58, 72);  
+}
+.copyright{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(168, 167, 167);
+  padding: 1rem;
+}

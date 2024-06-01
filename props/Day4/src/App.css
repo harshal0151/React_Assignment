@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+  margin: 0 5rem;
+  text-align: center;
+  
+}
+.card{
+  margin: 5rem;
+  background: #1f2937;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  
+}
+
+.card p{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 36px;
+}
+
+.card span{
+color: #9ca3af;
+font-size: 18px;
+}

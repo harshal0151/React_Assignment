@@ -1,0 +1,39 @@
+.color-picker {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 3rem
+    ;
+  }
+  
+  
+  .color-card {
+    border: 1px solid #ccc;
+    padding: 100px 50px;
+    width: 100px;
+    text-align: center;
+
+    
+  }
+  
+
+
+
+.color-card h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .color-card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    
+  }

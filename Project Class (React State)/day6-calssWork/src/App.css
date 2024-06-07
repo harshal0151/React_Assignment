@@ -1,0 +1,118 @@
+/* App.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  header {
+    /* background-image: linear-gradient(to top, #63a5ef 0%, #488ded 100%); */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  
+  .left, .right {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .right {
+    flex-basis: 300px;
+  }
+  
+  .left div {
+    margin-bottom: 20px;
+  }
+  
+  .left p {
+    margin: 0 0 10px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+  
+  /* Specific styles for elements */
+  .left p {
+    font-weight: bold;
+  }
+  
+  .right h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .CChart {
+    margin-top: 20px;
+  }
+
+ 
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left, .right {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h3 {
+      font-size: 1.5em;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    .left, .right {
+      padding: 15px;
+    }
+  
+    .left div {
+      margin-bottom: 15px;
+    }
+  
+    .right h3 {
+      font-size: 1em;
+    }
+  
+    input[type="range"] {
+      margin-top: 5px;
+    }
+  }
+  

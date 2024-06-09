@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  
+  display: flex;
+  flex-direction: column;
+}
+.nav-header{
+  float: left;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.nav-header h1{
+   color: rgb(169, 132, 58);
+   margin-bottom: 1rem;
+}
+.nav-header p{
+  color: gray;
+}
+.navbar-1{
+  background: rgb(161, 161, 161);
+  height: 60px;
+
+}
+.navbar-1 ul {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.navbar ul li {
+  height: 100%;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+.navbar ul li a {
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-weight: 600;
+  height: 100%;
+  line-height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 100%;
+}
+.navbar ul li a:hover{
+  cursor: pointer;
+  transition: .6s ease;
+ background-color: rgb(169, 58, 72);
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+  
+}
+
+
+.filters{
+  margin: 1rem;
+
+}
+
+select {
+  padding: 0.5rem 1rem;
+
+}
+
+.filters input{
+  padding: 10px;
+  margin:  0 1rem;  
+
+}
+.card {
+  width: 350px;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+
+  
+  
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+}
+
+.card_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.card_title h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #1f2937;
+}
+
+.card_location {
+  padding:  0 20px;
+  color: #4b5563;
+
+}
+span{
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.card_location p {
+  margin: 20px 0;
+  
+}
+
+.famous_dish{
+margin-top: 2rem ;
+background: #f3f4f6;
+padding: 1.5rem ;
+}
+.famous_dish span{
+  color: green;
+  font-size: 1rem;
+
+}
+
+

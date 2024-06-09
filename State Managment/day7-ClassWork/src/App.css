@@ -1,0 +1,96 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.grocery_bud {
+  text-align: center;
+}
+
+.grocery_bud h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.grocery_bud form {
+  display: flex;
+  flex-direction: column;
+}
+
+.grocery_bud input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.grocery_bud input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.grocery_bud input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.author_list {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.author_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+.author_item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.author_item span.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.author_item button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.author_item button:hover {
+  background-color: #c82333;
+}

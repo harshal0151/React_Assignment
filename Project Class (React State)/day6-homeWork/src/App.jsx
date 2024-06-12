@@ -3,10 +3,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 import './App.css';
 
 const products = [
-  { id: 1, name: 'Samsung Galaxy S8', price: 399, image: 'https://via.placeholder.com/100' },
-  { id: 2, name: 'Google Pixel', price: 499, image: 'https://via.placeholder.com/100' },
-  { id: 3, name: 'Xiaomi Redmi Note 2', price: 699, image: 'https://via.placeholder.com/100' },
-  { id: 4, name: 'Samsung Galaxy S7', price: 599, image: 'https://via.placeholder.com/100' },
+  { id: 1, name: 'Samsung Galaxy S8', price: 399, image: 'https://images.samsung.com/is/image/samsung/p6pim/pk/sm-a736blghpkd/gallery/pk-galaxy-a73-5g-a736-sm-a736blghpkd-532683352?$ORIGIN_PNG$?$450_450_PNG$' },
+  { id: 2, name: 'Google Pixel', price: 499, image: 'https://lh3.googleusercontent.com/KaLIFYVg9298b8jv33H3pagRaAz4lCQxrQz-goMEsiTuCmUf2Ood9ktkzgjpotkMuRcAMimOV2RfN7vBZVmnInf5wcwUNsRZpw' },
+  { id: 3, name: 'Xiaomi Redmi Note 2', price: 699, image: 'https://img.etimg.com/thumb/width-640,height-480,imgsize-35708,resizemode-75,msid-98897778/top-trending-products/mobile-phones/6-latest-mobile-phones-with-12gb-ram-in-india-in-2023-starting-at-rs-29999/6-latest-mobile-phones-with-12gb-ram-in-india.jpg' },
+  { id: 4, name: 'Samsung Galaxy S7', price: 599, image: 'https://www.gizmochina.com/wp-content/uploads/2016/09/carousel-samsung-galaxy-s7-edge-silver-titanium-380x380-1.jpg' },
 ];
 
 const App = () => {

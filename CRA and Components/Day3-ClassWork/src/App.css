@@ -11,7 +11,8 @@ a{
   text-decoration: none;
 }
 nav{
-  background-color: #111827;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   display: flex;
   justify-content: space-between;
   padding: .3rem;
@@ -19,6 +20,7 @@ nav{
   position: sticky;
   top: 0;
   color: #fff;
+  z-index: 99;
   
   
 }
@@ -209,4 +211,138 @@ footer{
 }
 .footer-icon img{
   max-width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+  
+}
+
+
+.filters{
+  margin: 1rem;
+
+}
+
+select {
+  padding: 0.5rem 1rem;
+
+}
+
+.filters input{
+  padding: 10px;
+  margin:  0 1rem;  
+
+}
+.card {
+  width: 350px;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+
+  
+  
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+}
+
+.card_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.card_title h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #1f2937;
+}
+
+.card_location {
+  padding:  0 20px;
+  color: #4b5563;
+
+}
+span{
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.card_location p {
+  margin: 20px 0;
+  
+}
+
+.famous_dish{
+margin-top: 2rem ;
+background: #f3f4f6;
+padding: 1.5rem ;
+}
+.famous_dish span{
+  color: green;
+  font-size: 1rem;
+
+}
+
+
+
+.Qcontainer{
+  margin: 0 5rem;
+  text-align: center;
+  
+}
+.Qcard{
+  margin: 5rem;
+  background: #1f2937;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  
+}
+
+.Qcard p{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 36px;
+}
+
+.Qcard span{
+color: #9ca3af;
+font-size: 18px;
 }

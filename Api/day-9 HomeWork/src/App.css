@@ -1,0 +1,54 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
+  button:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+  }
+  
+  button.selected {
+    background: #ffa500;
+  }
+  
+  .question {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
